@@ -1,1 +1,219 @@
-<p>Hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="./style.css">
+ <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+ <div id="header">
+  <div class="container">
+  <nav>
+     <h1><span>S</span>ANCHIT.</h1>
+   <ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fa fa-times" aria-hidden="true" onclick="closeMenu()"></i>
+  </ul>
+  <i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+  </nav>
+  <div class="header-text">
+    <p>FRONTEND DEVELOPER</p>
+    <h1>Hi, I'm <span>S</span>anchit<br> Thakar From India</h1>
+  </div>
+ </div>
+ </div>
+<!-- About -->
+ <div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="./personal-portfolio-img/images/sanchitimg-3.jfif" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>My name sanchit thakar and I'm a softwared developer.I completed my Gradution in BCS.I am good in java,React,javascript,MySQL.I Certified with java Full stack Developement.
+        </p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          
+        </div>
+        <div class="tab-content active-tab" id="skills">
+          <ul>
+            <li><span>Web Developement</span><br>Designing Web/App interfaces</li>
+            <li><span>Java Developement</span><br>Working as Backend</li>
+            <li><span>App Developement</span><br>Building Android/IOS apps</li>
+          </ul>
+        </div>
+        <div class="tab-content" id="experience">
+          <ul>
+            <li><span>2021-2024</span><br>Designing Web/App interfaces</li>
+            <li><span>2023-2025</span><br>Working as Backend</li>
+            <li><span>2023-2025</span><br>Building Android/IOS apps</li>
+          </ul>
+        </div>
+        <div class="tab-content" id="education">
+          <ul>
+            <li><span>2021-2024</span><br>Bachelor of Computer Science</li>
+            <li><span>2023-2024</span><br>Java Full Stack Developement Course</li>
+            <li><span>2024-current</span><br>Looking For the Job</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ <!-- services -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa fa-code" aria-hidden="true"></i>
+          <h2>Web Design</h2>
+           <p>I am a Web desinger and i have created lot of websites which i  desing. I providing the Service of web desingning .</p>
+           <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa fa-crop" aria-hidden="true"></i>
+          <h2>Frontend Developement</h2>
+           <p>I am a Web desinger and i have created lot of websites which i  desing. I providing the Service of web desingning .</p>
+           <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+          <h2>Backend Developement</h2>
+           <p> I am Backend Developer And I providing the backend services.</p>
+           <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Porfolio -->
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="./personal-portfolio-img/images/work-1.png" alt="">
+        <div class="layer">
+          <h3>Scial Media App</h3>
+          <p>The app connects you to the talented people around the world Download it from play store.</p>
+          <a href="#">    <i class="fa fa-external-link" aria-hidden="true"></i></a>
+        </div>
+
+      </div>
+      <div class="work">
+        <img src="./personal-portfolio-img/images/work-2.png" alt="">
+        <div class="layer">
+          <h3>Web Applications</h3>
+          <p>The app connects you to the talented people around the world Download it from play store.</p>
+          <a href="#">    <i class="fa fa-external-link" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./personal-portfolio-img/images/work-3.png" alt="">
+        <div class="layer">
+          <h3>Online shopping App</h3>
+          <p>The app connects you to the talented people around the world Download it from play store.</p>
+          <a href="#">    <i class="fa fa-external-link" aria-hidden="true"></i></a>
+        </div>
+    
+    </div>
+  </div>
+  <a href="#" class="btn">See more</a>
+ </div>
+ <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa fa-paper-plane" aria-hidden="true"></i>sanchitthakar57@gmail.com</p>
+          <p><i class="fa fa-phone-square" aria-hidden="true"></i>9370136864</p>
+          <div class="social-icons">
+            <a href="https://facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+          <a href="./personal-portfolio-img\images/my-cv.pdf" class="btn btn2" download>Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" id="" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">submit</button>
+          </form>
+          <span id="msg">hello</span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; SANCHIT. Made with <i class="fa fa-heart" aria-hidden="true"></i> by Sanchit's</p>
+    </div>
+  </div>
+
+  <script>
+    
+    var tablinks = document.querySelectorAll(".tab-links");
+    var tabcontents = document.querySelectorAll(".tab-content");
+
+    function opentab(tabname) {
+        tablinks.forEach((tablink) => {
+            tablink.classList.remove("active-link");
+        });
+
+        tabcontents.forEach((tabcontent) => {
+            tabcontent.classList.remove("active-tab");
+        });
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+  var sidemenu = document.getElementById('sidemenu');
+  function openMenu(){
+    sidemenu.style.right = "0";
+
+  }
+  function closeMenu(){
+    sidemenu.style.right = "-200px";
+    
+  }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyIcU1-_aF0OVJRiL1xj3WLFgFEU4qwJGPsDBuweVkVJxDzID0JNn8fF4guR-0EfopOdw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "message sent successfully"
+        setTimeout(() => {
+          msg.innerHTML = ""
+        }, 5000);
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+
+</html>
